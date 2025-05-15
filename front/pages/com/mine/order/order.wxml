@@ -1,0 +1,40 @@
+<van-nav-bar
+      title="添加车辆" 
+      left-text="返回"     
+      left-arrow
+      bind:click-left="onClickLeft"
+    />
+<view class="container">
+    <van-cell-group>
+        <van-cell title="车辆照片">
+            <van-uploader max-count="1" file-list="{{ fileList }}" bind:after-read="afterRead" bind:delete="deleteImg">
+                <!-- <img class="arrart"  src="{{ user.avatarurl ?user.avatarurl : require('../../../../images/logo.jpg')}}" /> -->
+            </van-uploader>
+        </van-cell>           
+        <van-field
+            label="车辆型号："
+            value="{{ user.name }}"
+            placeholder="请输入"           
+            input-align="right"
+            bind:change="onChangeNick"
+        />
+        <van-field
+            label="电车品牌"
+            value="{{ user.type }}"
+            placeholder="请输入"           
+            input-align="right"
+            bind:change="onChangePhone"
+        />
+        <van-field
+            label="电池续航："
+            value="{{ user.dec }}"
+            placeholder="请输入"           
+            input-align="right"
+            bind:change="onChangeGender"
+        />
+       
+      
+</van-cell-group>
+<view class="bt" bindtap="save">添加</view>
+
+</view>

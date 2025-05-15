@@ -1,0 +1,26 @@
+<wxs module="filters" src="../../wxs/tool.wxs"></wxs>
+<view class="container">
+    <van-nav-bar    
+      title="预警消息" 
+     
+    />  
+    
+  <scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" bindscrolltolower="bindDownLoad" bindscroll="scroll">
+        <view class="item" wx:for="{{list}}" wx:key="index" bindtap="itemClick" data-index="{{ index }}">
+               
+               
+            <view class="title">车辆：{{item.car.name}}</view>
+         
+           
+             <view class="description">{{item.warning}}</view>
+             <view class="description">{{item.ctime}}</view>
+        </view>
+    </scroll-view>
+    <view class="body-view">
+        <loading wx:if="{{hidden}}" bindchange="loadingChange">
+            加载中...
+        </loading>
+    </view>
+
+
+</view>

@@ -1,0 +1,30 @@
+<wxs module="filters" src="../../../../wxs/tool.wxs"></wxs>
+<van-nav-bar
+      title="订单详情" 
+      left-text="返回"     
+      left-arrow
+      bind:click-left="onClickLeft"
+    />
+<view >    
+        
+      <view style="width: 90%;font-size: 14px;color: blue;margin: 10px 10px;"  >充电桩名称：{{info.app.name}}</view>
+     <view style="width: 90%;font-size: 14px;color: blue;margin: 10px 10px;" >位置：{{info.app.address}}</view>
+    
+     <view style="width: 90%;font-size: 14px;color: blue;margin: 10px 10px;" >收费标准：{{info.app.price}}(元/小时)</view>
+   
+     <view style="width: 90%;font-size: 14px;color: rgb(0, 255, 42);margin: 10px 10px;" >订单状态:{{info.status}}</view>
+     <view wx:if="{{info.status!='预约中'}}" style="width: 90%;font-size: 14px;color: rgb(255, 0, 13);margin: 10px 10px;" >开始时间：{{info.stime}}</view>
+     <view wx:if="{{info.status!='预约中'}}" style="width: 90%;font-size: 14px;color: rgb(255, 0, 13);margin: 10px 10px;" >结束时间：{{info.etime}}</view>
+     <view wx:if="{{info.status!='预约中'}}"  style="width: 90%;font-size: 14px;color: rgb(255, 0, 13);margin: 10px 10px;" >充电时长：{{info.tdur}}</view>
+     <view wx:if="{{info.status!='预约中'}}" style="width: 90%;font-size: 14px;color: rgb(255, 0, 13);margin: 10px 10px;" >总金额：{{info.tprice}}</view>
+     <view wx:if="{{info.status!='预约中'}}" style="width: 90%;font-size: 14px;color: rgb(255, 0, 13);margin: 10px 10px;" >充电量：{{info.tgl}}(KW)</view>
+      <view wx:if="{{info.status=='退款中'}}" style="color: red;margin-left: 100px;margin-top: 20px;">故障退款申请</view>
+      <view  wx:if="{{info.status=='已退款'}}" style="color: red;margin-left: 100px;margin-top: 20px;">故障退款申请</view>
+      <view class="item" wx:for="{{bxlist}}" wx:key="index" bindtap="itemClick" data-index="{{ index }}">
+              
+            <view class="title">{{item.dec}}</view>
+            <view class="description">{{item.bx}}</view>
+                 <view class="type">{{item.ctime}}</view>
+        </view>
+</view>
+<van-dialog id="van-dialog" />

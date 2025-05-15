@@ -1,0 +1,12 @@
+<wxs module="filters" src="../../../../wxs/tool.wxs"></wxs>
+<view >
+    <van-nav-bar    
+      title="建议回复"
+      left-text="返回"     
+      left-arrow
+      bind:click-left="onClickLeft" 
+    />  
+  
+   <view style="line-height: 24px; color: brown;font-size: 17px;margin: 10px 10px;">{{info.reply}}</view>
+
+</view>

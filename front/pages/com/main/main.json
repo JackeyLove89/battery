@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+         "home":"/components/home/home",
+         "type":"/components/type/type",
+         "van-dialog": "@vant/weapp/dialog/index",
+         "search":"/components/search/search",
+         "mine":"/components/mine/mine"
+    }
+}

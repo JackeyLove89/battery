@@ -1,0 +1,66 @@
+<wxs module="filters" src="../../../../wxs/tool.wxs"></wxs>
+<van-nav-bar
+      title="" 
+      left-text="返回"     
+      left-arrow
+      bind:click-left="onClickLeft"
+    />
+<view >    
+    <van-cell-group>
+        <van-field   
+            value="{{ cname }}" 
+            input-align="right"        
+            label=""
+            clearable          
+            placeholder="请选择"
+            bind:click-input="choseCity"
+            required   
+            readonly
+        />     
+     
+        <van-field
+            label="起始点"        
+            placeholder=""           
+            input-align="right"
+            bind:change="onChangeS"
+            required  
+        />
+        <van-field
+            label="终点"        
+            placeholder=""           
+            input-align="right"
+            bind:change="onChangeZ"
+            required  
+        />  
+   
+</van-cell-group>
+
+<view style="width: 70%;margin-left: 15%;text-align: center;background-color: red;color: white;height: 30px;line-height: 30px;margin-top: 10px;" bindtap="save">搜索</view>
+       
+
+       <!-- <view class="item" wx:for="{{list}}" wx:key="index"   bindtap="itemClick"  data-index="{{ index }}">
+        <view class="title">点位名称：{{item.name}}</view>
+        <view class="type">{{item.line}}m</view>
+        
+             <view class="description">简介：{{item.dec}}</view>
+         
+         </view>	 -->
+
+       <view style="width: 75%;background-color: royalblue;margin-left: 10%;margin-top: 20px;padding: 10px 10px;color: white;">{{info}}</view>
+     
+
+ <view class="body-view">
+        <loading wx:if="{{hidden}}" bindchange="loadingChange">
+            加载中...
+        </loading>
+    </view>
+</view>
+<van-popup show="{{showType}}" position="bottom">
+    <van-picker
+        show-toolbar
+        title="选择城市"
+        columns="{{ columns }}"
+        bind:cancel="typeCancel"
+        bind:confirm="typeConfirm"
+        />
+      </van-popup>      

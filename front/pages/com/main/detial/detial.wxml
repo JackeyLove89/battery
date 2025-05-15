@@ -1,0 +1,12 @@
+<wxs module="filters" src="../../../../wxs/tool.wxs"></wxs>
+<van-nav-bar
+      title="{{info.title}}" 
+      left-text="返回"     
+      left-arrow
+      bind:click-left="onClickLeft"
+    />
+<view class="container">    
+   
+   	<view class="content">{{info.content}}</view>	
+ 
+</view>

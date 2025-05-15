@@ -1,0 +1,4 @@
+<!--pages/lanuch/lanuch.wxml-->
+<view class="container">
+    <van-image width="320" height="620" src="/images/lauch.jpg"></van-image>
+</view>

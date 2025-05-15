@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/lanuch/lanuch",
+        "pages/com/login/login",
+        "pages/com/main/main",
+        "pages/com/mine/info/info",
+        "pages/com/mine/pwd/pwd",
+        "pages/com/mine/feedback/feedback",
+        "pages/com/mine/about/about",
+        "pages/com/main/detial/detial",
+        "pages/com/main/goods/goods",
+        "pages/com/mine/store/store",
+        "pages/com/mine/pj/pj",
+        "pages/com/login/nlogin/nlogin",
+        "pages/com/main/nmain",
+        "pages/com/mine/store/reply",
+        "pages/com/login/res/reg",
+        "pages/com/main/goods/park",
+        "pages/com/main/goods/fj",
+        "pages/com/main/goods/search",
+        "pages/com/mine/order/order",
+        "pages/com/mine/order/detial"
+    ],
+    "window": {
+        "navigationStyle": "custom"
+    },
+    "usingComponents": {
+        "van-image": "@vant/weapp/image/index",
+        "van-nav-bar": "@vant/weapp/nav-bar/index",
+        "van-tabbar": "@vant/weapp/tabbar/index",
+        "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+        "van-tab": "@vant/weapp/tab/index",
+        "van-tabs": "@vant/weapp/tabs/index",
+        "van-field": "@vant/weapp/field/index",
+        "van-button": "@vant/weapp/button/index",
+        "van-icon": "@vant/weapp/icon/index"
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "requiredPrivateInfos": [
+        "getLocation",
+        "chooseLocation",
+        "chooseAddress"
+    ],
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,36 @@
+<van-nav-bar
+      title="修改密码" 
+      left-text="返回"     
+      left-arrow
+      bind:click-left="onClickLeft"
+    />
+<view class="container">
+  <van-cell-group style="margin: 10px 10px;">
+  <van-field
+    type="password"   
+    required
+    clearable
+    label="原密码"    
+    placeholder="请输入原密码"
+    bind:change="onChangeOld"  
+  />
+
+  <van-field   
+    type="password"
+    label="新密码"
+    clearable
+    placeholder="请输入新密码"
+    required   
+    bind:change="onChangeNew"  
+  />
+  <van-field    
+    type="password"
+    label="确认新密码"
+    clearable
+    placeholder="请再次输入新密码"
+    bind:change="onChangeNew1"  
+    required   
+  />
+</van-cell-group>
+<view class="bt" bindtap="save">修改</view>
+</view>

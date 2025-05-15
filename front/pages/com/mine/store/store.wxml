@@ -1,0 +1,26 @@
+<wxs module="filters" src="../../../../wxs/tool.wxs"></wxs>
+<view >
+    <van-nav-bar    
+      title="我的建议"
+      left-text="返回"     
+      left-arrow
+      bind:click-left="onClickLeft" 
+    />  
+  
+  <scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" bindscrolltolower="bindDownLoad" bindscroll="scroll">
+        <view class="item" wx:for="{{list}}" wx:key="index"  bindtap="itemClick" data-index="{{ index }}">
+          
+            <view class="title">{{item.content}}</view>          
+            <view class="description">{{item.ctime}}</view>
+            <view class="nstore" wx:if="{{item.reply}}">已回复</view>
+            <view class="nstore" wx:else>待回复</view>
+        </view>
+    </scroll-view>
+    <view class="body-view">
+        <loading wx:if="{{hidden}}" bindchange="loadingChange">
+            加载中...
+        </loading>
+    </view>
+
+
+</view>

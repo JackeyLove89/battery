@@ -1,0 +1,37 @@
+
+.home-swiper{
+    height: 150px;
+    padding: 5px 5px;     
+}
+.item{
+  
+    background: wheat;
+    border-radius: 10px;
+    width: 94%;
+    height: 90px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    position: relative;
+}
+.img{   
+    position: absolute;   
+    width: 120px;
+    height: 90px;
+}
+.img image{
+    width: 120px;
+    height: 90px;
+}
+.title{
+    position: absolute;   
+    left: 140px;
+    top: 20px;
+    color: red;
+    font-size: 14px;  
+}
+.description{
+    position: absolute;   
+    left: 140px;
+    top: 50px;
+    font-size: 12px;  
+}

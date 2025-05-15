@@ -1,0 +1,68 @@
+<wxs module="filters" src="../../../../wxs/tool.wxs"></wxs>
+<van-nav-bar
+      title="{{info.car.name}}" 
+      left-text="返回"    
+      left-arrow
+    
+      bind:click-left="onClickLeft"
+  
+    />
+<view class="container" style="width: 100%;">  
+   <view style="background-color: rgb(89, 107, 187);width: 100%;padding: 10px 10px;position: relative;height: 150px;">
+   <image src="/images/logo.jpg" style="width:50px;height: 50px;position: absolute;left: 15px;"></image>
+    <view style="position: absolute;right: 15px;color: white;">电池健康度SOH</view>
+    <view style="position: absolute;right: 15px;top: 30px;color: white;">{{info.jkdb}}%</view>
+    <view style="position: absolute;right: 15px;top: 50px;color: white;">{{info.jkds}}</view>
+    <view style="position: absolute;left: 15px;top: 70px;color: white;">车辆续航{{info.xh}}km</view>
+    <view style="position: absolute;left: 15px;top: 90px;color: white;">车辆行驶总里程：{{info.xslc}}km</view>
+    <view style="position: absolute;left: 15px;top: 110px;color: white;">最高温度：{{info.zgwd}}°</view>
+    <view style="position: absolute;left: 15px;top: 130px;color: white;">最低温度{{info.zdwd}}°</view>
+    <view bindtap="cd" style="position: absolute;right: 15px;top: 130px;color: white;background-color: teal;width: 50px;height: 30px;text-align: center;line-height: 30px;">充电</view>
+   </view>
+   <view style="color: rgb(236, 24, 24);margin-top: 10px;">电池续航</view>  
+   <view  class="ec"> 
+    <ec-canvas  
+        id="mychart-dom-bar"
+        canvas-id="mychart-bar"
+        ec="{{ ec }}"
+      ></ec-canvas>
+      </view>
+    
+
+      <view style="color: rgb(236, 24, 24);margin-top: 10px;">电池性能评估</view>  
+     <view   class="ec">
+        <ec-canvas
+         id="mychart-dom-bar1"
+         canvas-id="mychart-bar1"
+         ec="{{ ec1 }}"
+       ></ec-canvas>
+     </view>
+  
+      <view  class="item" style="background-color: rgb(136, 161, 241);">
+             
+             <view class="title">容量保持率：{{info.rlb}}%</view>       
+             <view class="time">{{info.rls}}</view>
+         </view>    
+         <view  class="item" style="background-color: rgb(136, 161, 241);">
+             
+             <view class="title">电压一致性:{{info.dyb}}%</view>       
+             <view class="time">{{info.dys}}</view>
+         </view>    
+         <view  class="item" style="background-color: rgb(136, 161, 241);">
+             
+             <view class="title">内阻一致性：{{info.nzb}}%</view>       
+             <view class="time">{{info.nzs}}</view>
+         </view>    
+         <view  class="item" style="background-color: rgb(136, 161, 241);">
+             
+             <view class="title">温度一致性：{{info.wdb}}%</view>       
+             <view class="time">{{info.wds}}</view>
+         </view>    
+         <view  class="item" style="background-color: rgb(136, 161, 241);">
+             
+             <view class="title">自放电率：{{info.zfdb}}%</view>       
+             <view class="time">{{info.zfds}}</view>
+         </view>    
+         <view style="color: rgb(236, 24, 24);margin-top: 10px;">电池预警</view>  
+         <view style="color: rgb(24, 151, 236);margin-top: 10px;width: 100%;margin: 10px 10px;">{{info.jkyj}}</view>  
+</view>

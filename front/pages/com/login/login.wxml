@@ -1,0 +1,21 @@
+<van-nav-bar
+  title="登录"
+
+  bind:click-left="onClickLeft"
+  bind:click-right="onClickRight"
+/>
+<view class="container">
+ 
+    <van-image class="img" round width="100" height="100"  src="{{userInfo.avatarUrl}}"></van-image>
+    <text class="nick">{{userInfo.nickName}}</text>
+    <view class="userinfo">
+    <block wx:if="{{!hasUserInfo}}">
+      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 用户登录 </button>
+      <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 用户登录 </button>
+    </block>
+   
+  </view>
+  <button  wx:if="{{hasUserInfo}}" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">登录</button>
+
+  <button bindtap="nlogin" style="background-color: brown;">农户登录</button>
+</view>

@@ -1,0 +1,50 @@
+
+.home-swiper{
+    height: 150px;
+    padding: 5px 5px;     
+}
+.item{
+  
+    background: #B0C7B1;
+    border-radius: 10px;
+    width: 93%;
+  
+    padding: 5px 5px;
+    margin: 5px 5px;
+   
+}
+.img{   
+    position: absolute;   
+    width: 90px;
+    height: 90px;
+}
+.img image{
+    width: 90px;
+    height: 90px;
+}
+.title{
+   
+    left: 10px;
+    top: 10px;
+    color: rgb(113, 111, 241);
+    font-size: 16px;  
+}
+.pm{
+    position: absolute;   
+    right: 20px;
+    top: 12px;
+    color: red;
+    font-size: 12px;  
+}
+.description{
+  
+    left: 10px;
+    bottom: 15px;
+    font-size: 11px;  
+}
+.type{
+    position: absolute;   
+    left: 10px;
+    top: 40px;
+    font-size: 12px;  
+}

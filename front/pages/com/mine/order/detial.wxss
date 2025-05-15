@@ -1,0 +1,56 @@
+.content{
+    margin: 15px 15px;
+    width: 90%;
+    height: 100%;   
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.item{
+  
+    background: #B0C7B1;
+    border-radius: 10px;
+    width: 93%;
+    height: 70px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    position: relative;
+}
+.img{   
+    position: absolute;   
+    width: 90px;
+    height: 90px;
+}
+.img image{
+    width: 90px;
+    height: 90px;
+}
+.title{
+    position: absolute;   
+    left: 10px;
+    top: 10px;
+    color: rgb(113, 111, 241);
+    font-size: 14px;  
+}
+.pm{
+    position: absolute;   
+    right: 20px;
+    top: 12px;
+    color: red;
+    font-size: 12px;  
+}
+.description{
+    color: red;
+    position: absolute;   
+    left: 10px;
+    bottom: 15px;
+    font-size: 11px;  
+}
+.type{
+    position: absolute;   
+    right:  10px;
+    bottom: 15px;
+    font-size: 12px;  
+}

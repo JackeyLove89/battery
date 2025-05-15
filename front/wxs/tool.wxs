@@ -1,0 +1,19 @@
+
+var filters = {    
+    
+    getImgUrl: function (img) {       
+        return "http://localhost:81"+"/"+img
+    },
+    toSub: function (str,leg) {       
+        if(str.length>leg){
+            return str.substring(0,leg)+"...."
+        }else{
+            return str
+        }
+       
+    }
+}
+module.exports = {   
+    getImgUrl: filters.getImgUrl ,
+    toSub: filters.toSub ,
+}

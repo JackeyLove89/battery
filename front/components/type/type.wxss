@@ -1,0 +1,77 @@
+scroll-view {
+    background-color: #f6f6f6;
+}
+van-grid{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; 
+    align-items:center;    */
+    
+}
+van-grid-item{
+    width: 100px;
+    background-color: white;
+    /* flex: 1; */
+    overflow: hidden;
+    border-radius: 10px;
+    margin:5px 5px;
+    padding:5px  5px;
+    text-align: center;
+}
+.tagSelector {
+    text-align: left;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 40rpx 30rpx 40rpx 40rpx;
+  }
+  
+  .hot-search-tag {
+    margin-top: 20rpx;
+  }
+  
+  van-tag {   
+    margin: 10px 10px;
+    background-color: #F5F5F5;
+  }
+  van-tag:active{
+      background-color: rgba(255,198,75,0.5);
+  }
+  .item{
+  
+    background: #B0C7B1;
+    border-radius: 10px;
+    width: 94%;
+    height: 90px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    position: relative;
+}
+.img{   
+    position: absolute;   
+    width: 90px;
+    height: 90px;
+}
+.img image{
+    width: 90px;
+    height: 90px;
+}
+.title{
+    position: absolute;   
+    left: 110px;
+    top: 10px;
+    color: red;
+    font-size: 14px;  
+}
+.description{
+    position: absolute;   
+    left: 110px;
+    bottom: 15px;
+    font-size: 12px;  
+}
+.type{
+    color: blue;
+    position: absolute;   
+    left: 110px;
+    top: 40px;
+    font-size: 12px;  
+}

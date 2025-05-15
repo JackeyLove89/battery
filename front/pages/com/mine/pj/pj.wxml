@@ -1,0 +1,17 @@
+<van-nav-bar
+      title="故障退款申请" 
+      left-text="返回"     
+      left-arrow
+      bind:click-left="onClickLeft"
+    />
+<view style="padding: 10px 10px;background-color: #b38583;">
+    <view style="color: brown;font-size: 13px;">注意：请如实填写退款原因，非真实故障，申请退款，后期核实后将会面临封号处理</view>
+    <view>退款原因内容</view>
+  
+    <view  style="border-radius: 5px;width: 90%;border: 1px gray solid;padding: 10px 10px;margin-top: 10px;margin-bottom: 10px;font-size: 12px;">
+       <textarea  style="text-align: start;min-height: 70px;" placeholder="请输入您的具体故障"   bindinput="contentInput"  />
+    </view>
+    
+<view class="bt" bindtap="save" >确认提交</view>
+
+</view>

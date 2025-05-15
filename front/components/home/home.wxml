@@ -1,0 +1,39 @@
+<wxs module="filters" src="../../wxs/tool.wxs"></wxs>
+<view class="container">
+    <van-nav-bar    
+      title="首页" 
+    />  
+    <swiper     
+    class="home-swiper"
+	indicator-dots="true" 
+	autoplay="true" 
+    interval="5000"
+    duration="1000"
+    indicator-color="#bfbfbf"
+    indicator-active-color="#00ACED"
+  >
+    <block wx:for="{{bannerList}}" wx:key="index">
+      <swiper-item bindtap="itemBClick" data-index="{{ index }}">
+        <image src="{{filters.getImgUrl(item.img)}}" style="width: 100%;height: 100%;border-radius: 10px;"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view style="color: crimson;width: 100%;text-align: center;margin-top: 10px;">--通知公告--</view>
+  <scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" bindscrolltolower="bindDownLoad" bindscroll="scroll">
+        <view class="item" wx:for="{{list}}" wx:key="index" bindtap="itemClick" data-index="{{ index }}">
+            <view class="img">
+                <image  src="{{filters.getImgUrl(item.img)}}"></image>
+            </view>       
+            <view class="title">{{item.title}}</view>
+            <!-- <view class="description">{{filters.toSub(item.content,15)}}</view> -->
+                 <view class="description">{{item.ctime}}</view>
+        </view>
+    </scroll-view>
+    <view class="body-view">
+        <loading wx:if="{{hidden}}" bindchange="loadingChange">
+            加载中...
+        </loading>
+    </view>
+
+
+</view>

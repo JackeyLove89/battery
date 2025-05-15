@@ -1,0 +1,10 @@
+.bt{
+    font-size: 14px;
+   line-height: 40px;
+    text-align: center;
+    background-color: #689CFD;
+    width: 70%;
+    height: 40px;
+    margin-top:50px;
+    margin-bottom: 150px;
+}

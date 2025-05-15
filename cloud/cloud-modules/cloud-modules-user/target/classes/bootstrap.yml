@@ -1,0 +1,78 @@
+# Tomcat
+server:
+  port: 9324
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: cloud-user
+  profiles:
+    # 环境配置
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: localhost:8848
+      config:
+        # 配置中心地址
+        server-addr: localhost:8848
+        # 配置文件格式
+        file-extension: yml
+        # 共享配置
+        shared-configs:
+          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+  main:
+    allow-circular-references: true
+
+  redis:
+    host: 43.138.185.132
+    port: 6379
+    password: 123321
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://gz-cynosdbmysql-grp-1kaymwij.sql.tencentcdb.com:25686/dianchijiance-cloud?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: dianchijiance
+    password: dianchijiance123
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    content: text/html
+    cache: false
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+  mvc:
+    static-path-pattern: /**
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss #如果使用字符串表示，用这行设置格式
+    timezone: GMT+8
+    serialization:
+      write-dates-as-timestamps: true #使用时间戳，使用数值timestamp表示日期
+
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}
+
+  security:
+    enabled: false
+
+mybatis:
+  mapper-locations: classpath*:mybatis/mapper/*.xml
+  type-aliases-package: com.cloud.base.entity
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql

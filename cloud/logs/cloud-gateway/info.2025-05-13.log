@@ -1,0 +1,209 @@
+09:22:07.763 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+09:22:09.321 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0
+09:22:09.373 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 33 ms to scan 1 urls, producing 3 keys and 6 values 
+09:22:09.400 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
+09:22:09.413 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 12 ms to scan 1 urls, producing 3 keys and 10 values 
+09:22:09.427 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
+09:22:09.445 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 11 ms to scan 1 urls, producing 1 keys and 7 values 
+09:22:09.461 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 13 ms to scan 1 urls, producing 2 keys and 8 values 
+09:22:09.465 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] RpcClient init label, labels = {module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+09:22:09.466 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$452/0x00000008003ef040
+09:22:09.466 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$453/0x00000008003ef440
+09:22:09.467 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+09:22:09.468 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+09:22:09.474 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+09:22:12.002 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1747099331790_127.0.0.1_51730
+09:22:12.004 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Notify connected event to listeners.
+09:22:12.004 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+09:22:12.005 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$467/0x0000000800456840
+09:22:12.341 [main] INFO  c.c.g.CloudGatewayApplication - [logStartupProfileInfo,646] - The following 1 profile is active: "dev"
+09:22:18.410 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+09:22:18.726 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of b098e353-e80a-4a9d-a981-274bdf97bc6c
+09:22:18.727 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] RpcClient init label, labels = {module=naming, source=sdk}
+09:22:18.729 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+09:22:18.729 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+09:22:18.730 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+09:22:18.731 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+09:22:18.857 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Success to connect to server [localhost:8848] on start up, connectionId = 1747099338741_127.0.0.1_51758
+09:22:18.858 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+09:22:18.858 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Notify connected event to listeners.
+09:22:18.858 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$467/0x0000000800456840
+09:22:19.132 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+09:22:20.048 [nacos-grpc-client-executor-18] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Receive server push request, request = NotifySubscriberRequest, requestId = 4
+09:22:20.051 [nacos-grpc-client-executor-18] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+09:22:20.252 [nacos-grpc-client-executor-19] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Receive server push request, request = NotifySubscriberRequest, requestId = 6
+09:22:20.253 [nacos-grpc-client-executor-19] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Ack server push request, request = NotifySubscriberRequest, requestId = 6
+09:22:20.263 [nacos-grpc-client-executor-20] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Receive server push request, request = NotifySubscriberRequest, requestId = 5
+09:22:20.264 [nacos-grpc-client-executor-20] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Ack server push request, request = NotifySubscriberRequest, requestId = 5
+09:22:20.281 [nacos-grpc-client-executor-21] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Receive server push request, request = NotifySubscriberRequest, requestId = 7
+09:22:20.283 [nacos-grpc-client-executor-21] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Ack server push request, request = NotifySubscriberRequest, requestId = 7
+09:22:21.263 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP cloud-gateway 172.16.90.73:9320 register finished
+09:22:21.300 [main] INFO  c.c.g.CloudGatewayApplication - [logStarted,61] - Started CloudGatewayApplication in 15.387 seconds (JVM running for 17.143)
+09:22:21.312 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-gateway, group=DEFAULT_GROUP
+09:22:21.312 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-gateway.yml, group=DEFAULT_GROUP
+09:22:21.775 [nacos-grpc-client-executor-35] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Receive server push request, request = NotifySubscriberRequest, requestId = 8
+09:22:21.783 [nacos-grpc-client-executor-35] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [b098e353-e80a-4a9d-a981-274bdf97bc6c] Ack server push request, request = NotifySubscriberRequest, requestId = 8
+09:24:27.906 [reactor-http-nio-2] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+10:07:59.186 [lettuce-nioEventLoop-5-2] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10:07:59.186 [lettuce-nioEventLoop-5-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10:07:59.275 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+10:07:59.275 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+10:07:59.377 [lettuce-nioEventLoop-5-4] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+10:07:59.395 [lettuce-nioEventLoop-5-3] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+10:08:01.473 [nacos-grpc-client-executor-568] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 11
+10:08:01.477 [nacos-grpc-client-executor-568] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [34187cd2-d824-42ea-90e1-d70ea3779fd2_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 11
+10:49:21.857 [lettuce-nioEventLoop-5-4] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10:49:21.867 [lettuce-nioEventLoop-5-3] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10:49:21.879 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+10:49:21.969 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+10:49:31.976 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:49:32.075 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:49:42.074 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:49:42.173 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:49:52.170 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:49:52.269 [lettuce-eventExecutorLoop-3-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:02.269 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:02.374 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:12.372 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:12.471 [lettuce-eventExecutorLoop-3-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:18.276 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:18.276 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:24.569 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:24.569 [lettuce-eventExecutorLoop-3-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:32.769 [lettuce-eventExecutorLoop-3-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:32.769 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:59.284 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:50:59.284 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:51:39.370 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:51:39.370 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:52:09.474 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:52:09.474 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:52:49.576 [lettuce-eventExecutorLoop-3-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:52:49.576 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:53:29.680 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:53:29.680 [lettuce-eventExecutorLoop-3-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:54:09.772 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:54:09.772 [lettuce-eventExecutorLoop-3-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:54:49.874 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:54:49.874 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:55:19.969 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:55:19.969 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:56:00.084 [lettuce-eventExecutorLoop-3-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:56:00.084 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:56:40.180 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:56:40.180 [lettuce-eventExecutorLoop-3-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:57:20.276 [lettuce-eventExecutorLoop-3-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:57:20.276 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:58:00.369 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:58:00.369 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:58:40.469 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:58:40.469 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:59:20.569 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+10:59:20.569 [lettuce-eventExecutorLoop-3-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:00:00.669 [lettuce-eventExecutorLoop-3-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:00:00.669 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:00:40.771 [lettuce-eventExecutorLoop-3-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:00:40.771 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:01:20.872 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:01:20.872 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:02:00.970 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:02:00.970 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:02:41.072 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:02:41.072 [lettuce-eventExecutorLoop-3-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:03:21.169 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:03:21.169 [lettuce-eventExecutorLoop-3-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:04:01.270 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:04:01.270 [lettuce-eventExecutorLoop-3-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:04:41.370 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:04:41.370 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:05:21.469 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:05:21.469 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:06:01.569 [lettuce-eventExecutorLoop-3-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:06:01.569 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:06:41.672 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:06:41.672 [lettuce-eventExecutorLoop-3-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+11:06:41.756 [lettuce-nioEventLoop-5-1] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+11:06:41.759 [lettuce-nioEventLoop-5-2] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+11:07:08.827 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,94] - De-registering from Nacos Server now...
+11:07:08.833 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,114] - De-registration finished.
+11:07:09.165 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,454] - Shutdown rpc client, set status to shutdown
+11:07:09.165 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,456] - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@40367b4e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+11:07:09.165 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [closeConnection,591] - Close current connection 1747099338741_127.0.0.1_51758
+11:07:09.168 [nacos-grpc-client-executor-2079] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1747099338741_127.0.0.1_51758]Ignore complete event,isRunning:false,isAbandon=false
+11:07:09.173 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@70f60320[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 2080]

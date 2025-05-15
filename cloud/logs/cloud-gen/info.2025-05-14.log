@@ -1,0 +1,296 @@
+11:17:06.358 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 420d8689-f945-4800-8927-78ff5e8ea872_config-0
+11:17:06.439 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 39 ms to scan 1 urls, producing 3 keys and 6 values 
+11:17:06.503 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 19 ms to scan 1 urls, producing 4 keys and 9 values 
+11:17:06.515 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+11:17:06.528 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+11:17:06.540 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+11:17:06.581 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values 
+11:17:06.589 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] RpcClient init label, labels = {module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+11:17:06.591 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$444/0x000000080037fc40
+11:17:06.592 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$445/0x000000080037f040
+11:17:06.593 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+11:17:06.593 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+11:17:06.613 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+11:17:09.306 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1747192628980_127.0.0.1_52503
+11:17:09.307 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Notify connected event to listeners.
+11:17:09.309 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:17:09.310 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$459/0x00000008003c5c40
+11:17:09.461 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0
+11:17:09.566 [main] INFO  c.c.CloudLogisticsApplication - [logStartupProfileInfo,646] - The following 1 profile is active: "dev"
+11:17:09.583 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 35 ms to scan 1 urls, producing 3 keys and 6 values 
+11:17:09.620 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+11:17:09.632 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 11 ms to scan 1 urls, producing 3 keys and 10 values 
+11:17:09.645 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+11:17:09.662 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 13 ms to scan 1 urls, producing 1 keys and 7 values 
+11:17:09.679 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 12 ms to scan 1 urls, producing 2 keys and 8 values 
+11:17:09.683 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] RpcClient init label, labels = {module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+11:17:09.684 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$444/0x000000080037fc40
+11:17:09.685 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$445/0x000000080037f040
+11:17:09.685 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+11:17:09.686 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+11:17:09.696 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+11:17:11.396 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9322"]
+11:17:11.397 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:17:11.397 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.62]
+11:17:11.688 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:17:11.934 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1747192631700_127.0.0.1_55286
+11:17:11.935 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Notify connected event to listeners.
+11:17:11.936 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:17:11.937 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$459/0x00000008003c5c40
+11:17:12.044 [main] INFO  c.c.CloudApiApplication - [logStartupProfileInfo,646] - The following 1 profile is active: "dev"
+11:17:12.564 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 83f83795-a835-42f2-8e46-c7e81093ca1c_config-0
+11:17:12.607 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 24 ms to scan 1 urls, producing 3 keys and 6 values 
+11:17:12.647 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 15 ms to scan 1 urls, producing 4 keys and 9 values 
+11:17:12.663 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 13 ms to scan 1 urls, producing 3 keys and 10 values 
+11:17:12.684 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 14 ms to scan 1 urls, producing 1 keys and 5 values 
+11:17:12.720 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 31 ms to scan 1 urls, producing 1 keys and 7 values 
+11:17:12.736 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 12 ms to scan 1 urls, producing 2 keys and 8 values 
+11:17:12.757 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] RpcClient init label, labels = {module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+11:17:12.758 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$444/0x000000080037f040
+11:17:12.758 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$445/0x000000080037f440
+11:17:12.759 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+11:17:12.761 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+11:17:12.771 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+11:17:13.555 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9321"]
+11:17:13.556 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:17:13.556 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.62]
+11:17:13.784 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:17:14.760 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of f2bd86b3-0ad6-4a85-b472-fc12f3e47503
+11:17:14.761 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] RpcClient init label, labels = {module=naming, source=sdk}
+11:17:14.764 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+11:17:14.764 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+11:17:14.765 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+11:17:14.766 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+11:17:14.892 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Success to connect to server [localhost:8848] on start up, connectionId = 1747192634779_127.0.0.1_62575
+11:17:14.893 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:17:14.893 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$459/0x00000008003c5c40
+11:17:14.893 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Notify connected event to listeners.
+11:17:15.016 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9322"]
+11:17:15.060 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP cloud-notice 172.16.90.73:9322 register finished
+11:17:15.189 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1747192634968_127.0.0.1_62576
+11:17:15.191 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:17:15.192 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$459/0x00000008003e6840
+11:17:15.191 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Notify connected event to listeners.
+11:17:15.294 [main] INFO  c.c.CloudUserApplication - [logStartupProfileInfo,646] - The following 1 profile is active: "dev"
+11:17:15.740 [main] INFO  c.c.CloudLogisticsApplication - [logStarted,61] - Started CloudLogisticsApplication in 11.892 seconds (JVM running for 13.467)
+11:17:15.752 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-notice.yml, group=DEFAULT_GROUP
+11:17:15.770 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-notice, group=DEFAULT_GROUP
+11:17:15.773 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-notice-dev.yml, group=DEFAULT_GROUP
+11:17:15.795 [scheduling-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:17:16.141 [nacos-grpc-client-executor-10] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Receive server push request, request = NotifySubscriberRequest, requestId = 1
+11:17:16.145 [nacos-grpc-client-executor-10] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Ack server push request, request = NotifySubscriberRequest, requestId = 1
+11:17:16.417 [scheduling-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:17:16.767 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9324"]
+11:17:16.767 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:17:16.767 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.62]
+11:17:16.955 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:17:17.009 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 7b3360a2-8044-4993-b33f-a60ba493bc96
+11:17:17.009 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] RpcClient init label, labels = {module=naming, source=sdk}
+11:17:17.011 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+11:17:17.011 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+11:17:17.011 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+11:17:17.012 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+11:17:17.139 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Success to connect to server [localhost:8848] on start up, connectionId = 1747192637021_127.0.0.1_62572
+11:17:17.140 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:17:17.140 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Notify connected event to listeners.
+11:17:17.140 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$459/0x00000008003c5c40
+11:17:17.202 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9321"]
+11:17:17.231 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP cloud-api 172.16.90.73:9321 register finished
+11:17:17.751 [nacos-grpc-client-executor-7] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Receive server push request, request = NotifySubscriberRequest, requestId = 2
+11:17:17.756 [nacos-grpc-client-executor-7] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Ack server push request, request = NotifySubscriberRequest, requestId = 2
+11:17:17.798 [main] INFO  c.c.CloudApiApplication - [logStarted,61] - Started CloudApiApplication in 10.774 seconds (JVM running for 12.137)
+11:17:17.807 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-api, group=DEFAULT_GROUP
+11:17:17.809 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-api.yml, group=DEFAULT_GROUP
+11:17:17.809 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-api-dev.yml, group=DEFAULT_GROUP
+11:17:17.821 [scheduling-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:17:18.330 [scheduling-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:17:19.681 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of f097bb17-07aa-45d7-b777-b1df794c5c4d
+11:17:19.681 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] RpcClient init label, labels = {module=naming, source=sdk}
+11:17:19.683 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+11:17:19.684 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+11:17:19.684 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+11:17:19.685 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+11:17:19.810 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Success to connect to server [localhost:8848] on start up, connectionId = 1747192639693_127.0.0.1_55357
+11:17:19.811 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Notify connected event to listeners.
+11:17:19.811 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:17:19.812 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$459/0x00000008003e6840
+11:17:19.869 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9324"]
+11:17:19.907 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP cloud-user 172.16.90.73:9324 register finished
+11:17:20.446 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Receive server push request, request = NotifySubscriberRequest, requestId = 3
+11:17:20.454 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Ack server push request, request = NotifySubscriberRequest, requestId = 3
+11:17:20.491 [main] INFO  c.c.CloudUserApplication - [logStarted,61] - Started CloudUserApplication in 10.139 seconds (JVM running for 11.61)
+11:17:20.499 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-user, group=DEFAULT_GROUP
+11:17:20.500 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-user.yml, group=DEFAULT_GROUP
+11:17:20.501 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-user-dev.yml, group=DEFAULT_GROUP
+11:17:20.521 [scheduling-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:17:21.060 [scheduling-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:17:51.397 [http-nio-9324-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:18:18.117 [http-nio-9322-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:18:23.289 [http-nio-9321-exec-4] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:07:59.231 [nacos-grpc-client-executor-267] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Receive server push request, request = ClientDetectionRequest, requestId = 9
+12:07:59.232 [nacos-grpc-client-executor-267] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Ack server push request, request = ClientDetectionRequest, requestId = 9
+14:05:22.088 [nacos-grpc-client-executor-268] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Receive server push request, request = ClientDetectionRequest, requestId = 11
+14:05:22.090 [nacos-grpc-client-executor-268] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Ack server push request, request = ClientDetectionRequest, requestId = 11
+14:05:22.102 [nacos-grpc-client-executor-275] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 12
+14:05:22.104 [nacos-grpc-client-executor-275] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 12
+14:05:22.112 [nacos-grpc-client-executor-260] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Receive server push request, request = ClientDetectionRequest, requestId = 13
+14:05:22.112 [nacos-grpc-client-executor-260] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Ack server push request, request = ClientDetectionRequest, requestId = 13
+14:05:22.115 [nacos-grpc-client-executor-276] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Receive server push request, request = ClientDetectionRequest, requestId = 18
+14:05:22.115 [nacos-grpc-client-executor-276] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Ack server push request, request = ClientDetectionRequest, requestId = 18
+14:05:22.114 [nacos-grpc-client-executor-273] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 17
+14:05:22.118 [nacos-grpc-client-executor-273] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 17
+14:05:22.122 [nacos-grpc-client-executor-272] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 15
+14:05:22.123 [nacos-grpc-client-executor-272] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 15
+14:08:32.049 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+14:08:32.154 [lettuce-nioEventLoop-4-2] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+14:15:31.879 [http-nio-9321-exec-3] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：u=2703571191,1191477828&fm=253&gp=0.jpg
+14:15:31.881 [http-nio-9321-exec-3] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:15:50.275 [http-nio-9321-exec-5] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：20220106152957_01e19.jpg
+14:15:50.275 [http-nio-9321-exec-5] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:16:07.666 [http-nio-9321-exec-6] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：u=2117422938,3735574011&fm=253&gp=0.jpg
+14:16:07.666 [http-nio-9321-exec-6] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:16:56.260 [http-nio-9321-exec-7] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：u=862886917,3439584759&fm=253&gp=0.jpg
+14:16:56.260 [http-nio-9321-exec-7] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:17:10.092 [http-nio-9321-exec-9] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：R-C.jpg
+14:17:10.092 [http-nio-9321-exec-9] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:17:21.171 [http-nio-9321-exec-8] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：OIP-C (1).jpg
+14:17:21.172 [http-nio-9321-exec-8] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:22:26.516 [http-nio-9321-exec-3] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：xa6SGzA3ES6E1c125e5e2c2dc64e74e53d3c230617cf.jpg
+14:22:26.516 [http-nio-9321-exec-3] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:26:15.678 [http-nio-9321-exec-9] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：2awJRN4SDq101c96840eaa48adfd416e1bd947c399b5.jpg
+14:26:15.678 [http-nio-9321-exec-9] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:26:44.869 [http-nio-9321-exec-8] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：9WMnN54cZdF41c96840eaa48adfd416e1bd947c399b5.jpg
+14:26:44.871 [http-nio-9321-exec-8] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:26:57.425 [http-nio-9321-exec-1] INFO  c.c.a.c.FileController - [upload,41] - 上传的文件名为：jGc1kDS6S8pY201f9ef7803c0b9c15cf510c4020a08b.jpg
+14:26:57.429 [http-nio-9321-exec-1] INFO  c.c.a.c.FileController - [upload,45] - 文件的后缀名为：.jpg
+14:37:47.116 [lettuce-nioEventLoop-4-2] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+14:37:47.150 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+14:37:57.246 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:07.345 [lettuce-eventExecutorLoop-1-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:17.455 [lettuce-eventExecutorLoop-1-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:27.554 [lettuce-eventExecutorLoop-1-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:37.646 [lettuce-eventExecutorLoop-1-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:47.745 [lettuce-eventExecutorLoop-1-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:57.950 [lettuce-eventExecutorLoop-1-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:08.250 [lettuce-eventExecutorLoop-1-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:18.845 [lettuce-eventExecutorLoop-1-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:29.940 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:42.042 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:56.246 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:40:14.547 [lettuce-eventExecutorLoop-1-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:40:41.046 [lettuce-eventExecutorLoop-1-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:41:21.152 [lettuce-eventExecutorLoop-1-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:42:01.248 [lettuce-eventExecutorLoop-1-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:42:41.342 [lettuce-eventExecutorLoop-1-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:43:21.445 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:44:01.540 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:44:41.652 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:45:21.751 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:46:01.844 [lettuce-eventExecutorLoop-1-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:46:41.946 [lettuce-eventExecutorLoop-1-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:47:22.048 [lettuce-eventExecutorLoop-1-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:48:02.141 [lettuce-eventExecutorLoop-1-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:48:42.243 [lettuce-eventExecutorLoop-1-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:49:22.345 [lettuce-eventExecutorLoop-1-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:50:02.442 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:50:41.931 [nacos-grpc-client-executor-805] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Receive server push request, request = ClientDetectionRequest, requestId = 19
+14:50:41.931 [nacos-grpc-client-executor-805] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Ack server push request, request = ClientDetectionRequest, requestId = 19
+14:51:09.344 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:51:49.444 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:52:29.554 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:53:09.641 [lettuce-eventExecutorLoop-1-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:53:49.742 [lettuce-eventExecutorLoop-1-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:54:29.840 [lettuce-eventExecutorLoop-1-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:55:09.941 [lettuce-eventExecutorLoop-1-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:55:50.043 [lettuce-eventExecutorLoop-1-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:56:30.140 [lettuce-eventExecutorLoop-1-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:57:10.254 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:57:50.340 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:58:30.440 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:59:10.541 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:59:50.646 [lettuce-eventExecutorLoop-1-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:00:30.745 [lettuce-eventExecutorLoop-1-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:17:10.007 [lettuce-eventExecutorLoop-1-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:17:10.390 [nacos-grpc-client-executor-937] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 23
+15:17:10.390 [nacos-grpc-client-executor-937] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [420d8689-f945-4800-8927-78ff5e8ea872_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 23
+15:17:10.390 [nacos-grpc-client-executor-930] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Receive server push request, request = ClientDetectionRequest, requestId = 22
+15:17:10.390 [nacos-grpc-client-executor-930] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [7b3360a2-8044-4993-b33f-a60ba493bc96] Ack server push request, request = ClientDetectionRequest, requestId = 22
+15:17:10.390 [nacos-grpc-client-executor-938] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Receive server push request, request = ClientDetectionRequest, requestId = 29
+15:17:10.390 [nacos-grpc-client-executor-938] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f2bd86b3-0ad6-4a85-b472-fc12f3e47503] Ack server push request, request = ClientDetectionRequest, requestId = 29
+15:17:10.390 [nacos-grpc-client-executor-934] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 28
+15:17:10.392 [nacos-grpc-client-executor-934] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f230cb35-5f4d-4333-9de0-5c7b2e39a395_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 28
+15:17:10.392 [nacos-grpc-client-executor-934] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 26
+15:17:10.392 [nacos-grpc-client-executor-921] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Receive server push request, request = ClientDetectionRequest, requestId = 24
+15:17:10.392 [nacos-grpc-client-executor-921] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f097bb17-07aa-45d7-b777-b1df794c5c4d] Ack server push request, request = ClientDetectionRequest, requestId = 24
+15:17:10.392 [nacos-grpc-client-executor-934] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83f83795-a835-42f2-8e46-c7e81093ca1c_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 26
+15:17:40.040 [lettuce-eventExecutorLoop-1-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:18:10.145 [lettuce-eventExecutorLoop-1-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:18:40.245 [lettuce-eventExecutorLoop-1-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:19:10.353 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:19:40.441 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:20:10.543 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:20:40.640 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:21:10.740 [lettuce-eventExecutorLoop-1-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:21:40.840 [lettuce-eventExecutorLoop-1-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:22:10.945 [lettuce-eventExecutorLoop-1-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:22:41.040 [lettuce-eventExecutorLoop-1-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:23:11.144 [lettuce-eventExecutorLoop-1-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:23:41.240 [lettuce-eventExecutorLoop-1-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:24:11.345 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:24:41.441 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:25:11.540 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:25:41.641 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:26:11.744 [lettuce-eventExecutorLoop-1-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:26:41.855 [lettuce-eventExecutorLoop-1-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:27:11.940 [lettuce-eventExecutorLoop-1-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:27:42.040 [lettuce-eventExecutorLoop-1-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:28:12.140 [lettuce-eventExecutorLoop-1-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:28:42.241 [lettuce-eventExecutorLoop-1-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:29:12.343 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:29:42.444 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:30:12.540 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:30:42.640 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:31:12.742 [lettuce-eventExecutorLoop-1-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:31:42.842 [lettuce-eventExecutorLoop-1-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:32:12.941 [lettuce-eventExecutorLoop-1-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:32:43.043 [lettuce-eventExecutorLoop-1-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:32:43.467 [lettuce-nioEventLoop-4-18] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+15:47:57.252 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,94] - De-registering from Nacos Server now...
+15:47:57.256 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,114] - De-registration finished.
+15:47:57.280 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,94] - De-registering from Nacos Server now...
+15:47:57.284 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,114] - De-registration finished.
+15:47:57.573 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,454] - Shutdown rpc client, set status to shutdown
+15:47:57.573 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,456] - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@7d8380c1[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:47:57.573 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [closeConnection,591] - Close current connection 1747192639693_127.0.0.1_55357
+15:47:57.576 [nacos-grpc-client-executor-1292] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1747192639693_127.0.0.1_55357]Ignore complete event,isRunning:false,isAbandon=false
+15:47:57.577 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3a5f3960[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 1293]
+15:47:57.616 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,454] - Shutdown rpc client, set status to shutdown
+15:47:57.616 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,456] - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5c7fde78[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:47:57.616 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [closeConnection,591] - Close current connection 1747192634779_127.0.0.1_62575
+15:47:57.619 [nacos-grpc-client-executor-1309] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1747192634779_127.0.0.1_62575]Ignore complete event,isRunning:false,isAbandon=false
+15:47:57.630 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@804863b[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 1310]
+15:47:57.632 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+15:47:57.645 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+15:47:57.729 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+15:47:57.742 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+15:48:04.647 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,94] - De-registering from Nacos Server now...
+15:48:04.649 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,114] - De-registration finished.

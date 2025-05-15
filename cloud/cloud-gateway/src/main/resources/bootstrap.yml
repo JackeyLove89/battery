@@ -1,0 +1,39 @@
+# Tomcat
+server:
+  port: 9320
+
+# Spring
+spring: 
+  application:
+    # 应用名称
+    name: cloud-gateway
+  profiles:
+    # 环境配置
+    active: dev
+  main:
+    allow-circular-references: true
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: localhost:8848
+      config:
+        # 配置中心地址
+        server-addr: localhost:8848
+        # 配置文件格式
+        file-extension: yml
+        # 共享配置
+        shared-configs:
+          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+          - cloud-gateway-dev.yml
+
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origins: "*"
+            allowed-methods: "GET, POST, PUT, DELETE, OPTIONS, PATCH"
+            allowed-headers: "*"
+            allow-credentials: false
+            max-age: 3600

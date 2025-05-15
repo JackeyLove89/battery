@@ -1,0 +1,414 @@
+11:17:15.846 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+11:17:17.011 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0
+11:17:17.054 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 22 ms to scan 1 urls, producing 3 keys and 6 values 
+11:17:17.079 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+11:17:17.090 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 7 ms to scan 1 urls, producing 3 keys and 10 values 
+11:17:17.100 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+11:17:17.136 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 6 ms to scan 1 urls, producing 1 keys and 7 values 
+11:17:17.150 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 12 ms to scan 1 urls, producing 2 keys and 8 values 
+11:17:17.155 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] RpcClient init label, labels = {module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+11:17:17.156 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$452/0x00000008003eec40
+11:17:17.156 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$453/0x00000008003ee040
+11:17:17.157 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+11:17:17.157 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+11:17:17.167 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+11:17:19.373 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1747192639131_127.0.0.1_62682
+11:17:19.378 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Notify connected event to listeners.
+11:17:19.380 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:17:19.381 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$467/0x0000000800456c40
+11:17:19.699 [main] INFO  c.c.g.CloudGatewayApplication - [logStartupProfileInfo,646] - The following 1 profile is active: "dev"
+11:17:26.066 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+11:17:26.475 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 6a08d275-b564-462c-817f-94a68244cd46
+11:17:26.475 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] RpcClient init label, labels = {module=naming, source=sdk}
+11:17:26.475 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+11:17:26.475 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+11:17:26.479 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+11:17:26.479 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+11:17:26.604 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Success to connect to server [localhost:8848] on start up, connectionId = 1747192646488_127.0.0.1_57254
+11:17:26.604 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Notify connected event to listeners.
+11:17:26.604 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:17:26.604 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$467/0x0000000800456c40
+11:17:26.891 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+11:17:27.939 [nacos-grpc-client-executor-20] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Receive server push request, request = NotifySubscriberRequest, requestId = 4
+11:17:27.943 [nacos-grpc-client-executor-20] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+11:17:28.145 [nacos-grpc-client-executor-21] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Receive server push request, request = NotifySubscriberRequest, requestId = 5
+11:17:28.147 [nacos-grpc-client-executor-21] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Ack server push request, request = NotifySubscriberRequest, requestId = 5
+11:17:28.158 [nacos-grpc-client-executor-22] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Receive server push request, request = NotifySubscriberRequest, requestId = 7
+11:17:28.158 [nacos-grpc-client-executor-22] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Ack server push request, request = NotifySubscriberRequest, requestId = 7
+11:17:28.163 [nacos-grpc-client-executor-23] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Receive server push request, request = NotifySubscriberRequest, requestId = 6
+11:17:28.163 [nacos-grpc-client-executor-23] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Ack server push request, request = NotifySubscriberRequest, requestId = 6
+11:17:29.458 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP cloud-gateway 172.16.90.73:9320 register finished
+11:17:29.515 [main] INFO  c.c.g.CloudGatewayApplication - [logStarted,61] - Started CloudGatewayApplication in 15.098 seconds (JVM running for 16.816)
+11:17:29.533 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-gateway, group=DEFAULT_GROUP
+11:17:29.533 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-gateway.yml, group=DEFAULT_GROUP
+11:17:30.002 [nacos-grpc-client-executor-42] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Receive server push request, request = NotifySubscriberRequest, requestId = 8
+11:17:30.020 [nacos-grpc-client-executor-42] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Ack server push request, request = NotifySubscriberRequest, requestId = 8
+11:18:04.376 [reactor-http-nio-2] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+11:18:13.866 [reactor-http-nio-2] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+11:18:18.022 [reactor-http-nio-2] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+11:18:23.176 [reactor-http-nio-2] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+11:18:23.198 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+11:19:03.188 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/upInfo
+11:35:08.766 [reactor-http-nio-11] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+11:35:16.845 [reactor-http-nio-11] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+11:35:18.287 [reactor-http-nio-11] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/upInfo
+11:35:19.378 [reactor-http-nio-11] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+11:35:19.399 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+12:07:59.232 [nacos-grpc-client-executor-271] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 10
+12:07:59.233 [nacos-grpc-client-executor-271] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 10
+14:05:22.090 [nacos-grpc-client-executor-446] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Receive server push request, request = ClientDetectionRequest, requestId = 14
+14:05:22.091 [nacos-grpc-client-executor-446] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Ack server push request, request = ClientDetectionRequest, requestId = 14
+14:05:22.105 [nacos-grpc-client-executor-273] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 16
+14:05:22.105 [nacos-grpc-client-executor-273] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 16
+14:07:41.112 [lettuce-eventExecutorLoop-3-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+14:07:41.215 [lettuce-nioEventLoop-5-3] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+14:07:41.262 [reactor-http-nio-19] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:07:41.264 [reactor-http-nio-20] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:08:12.654 [reactor-http-nio-2] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:08:37.358 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:08:47.297 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:08:54.796 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:09:15.548 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+14:09:20.543 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/delInfo
+14:09:20.775 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+14:14:00.180 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/dc/queryPage
+14:15:23.718 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:15:31.798 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:15:33.443 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/upInfo
+14:15:33.689 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:15:41.420 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:15:50.267 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:15:51.185 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/upInfo
+14:15:51.439 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:15:52.315 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:16:07.629 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:16:16.605 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/upInfo
+14:16:16.844 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:16:18.886 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:16:49.820 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:16:56.251 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:16:59.465 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/upInfo
+14:16:59.693 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:17:00.994 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:17:10.071 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:17:11.669 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/upInfo
+14:17:11.903 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:17:13.387 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:17:21.166 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:17:23.549 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/upInfo
+14:17:23.788 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:19:13.879 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:20:32.823 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:21:05.265 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/queryPage
+14:21:20.071 [reactor-http-nio-4] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+14:21:50.428 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/dc/getInfo
+14:22:08.603 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:22:10.179 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/upInfo
+14:22:12.420 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/getInfo
+14:22:26.507 [reactor-http-nio-8] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:22:28.345 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/upInfo
+14:22:40.619 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/getInfo
+14:23:22.061 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:23:37.434 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:23:38.049 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+14:24:32.145 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:24:35.664 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:24:36.625 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:24:36.674 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+14:24:38.050 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:24:38.054 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+14:24:38.729 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:24:45.388 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:25:15.197 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:25:26.032 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:25:40.196 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/register
+14:25:46.714 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+14:25:47.393 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+14:25:48.643 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:25:49.435 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:25:49.449 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+14:26:05.642 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:26:08.088 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/getInfo
+14:26:15.674 [reactor-http-nio-8] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:26:33.124 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/upInfo
+14:26:37.320 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/getInfo
+14:26:44.858 [reactor-http-nio-8] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:26:57.407 [reactor-http-nio-8] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/upload
+14:27:43.400 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/addInfo
+14:27:43.820 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/getInfo
+14:27:45.638 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:27:45.640 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+14:27:47.829 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:27:50.566 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:27:50.583 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+14:27:52.192 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+14:28:08.669 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/advice/addInfo
+14:28:08.989 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/getInfo
+14:28:54.110 [reactor-http-nio-9] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+14:28:56.283 [reactor-http-nio-9] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/getTj
+14:29:10.404 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/advice/queryPage
+14:29:12.443 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/advice/getInfo
+14:29:14.377 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/getInfo
+14:29:21.652 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/advice/addInfo
+14:29:21.966 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/getInfo
+14:37:47.116 [lettuce-nioEventLoop-5-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+14:37:47.119 [lettuce-nioEventLoop-5-3] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+14:37:47.200 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+14:37:47.200 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+14:37:57.299 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:37:57.299 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:07.402 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:07.402 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:17.491 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:17.491 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:27.592 [lettuce-eventExecutorLoop-3-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:27.592 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:37.700 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:37.700 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:47.796 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:47.796 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:58.004 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:38:58.004 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:08.301 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:08.301 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:18.898 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:18.898 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:29.991 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:29.991 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:42.098 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:42.098 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:56.298 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:39:56.298 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:40:14.598 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:40:14.598 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:40:40.995 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:40:40.995 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:41:21.098 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:41:21.098 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:42:01.191 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:42:01.191 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:42:41.303 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:42:41.303 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:43:21.394 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:43:21.394 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:44:01.498 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:44:01.498 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:44:41.603 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:44:41.603 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:45:21.701 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:45:21.701 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:46:01.790 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:46:01.790 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:46:41.894 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:46:41.894 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:47:21.996 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:47:21.996 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:48:02.103 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:48:02.103 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:48:42.192 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:48:42.192 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:49:22.293 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:49:22.293 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:50:02.393 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:50:02.393 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:50:41.962 [nacos-grpc-client-executor-1353] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Receive server push request, request = ClientDetectionRequest, requestId = 20
+14:50:41.962 [nacos-grpc-client-executor-809] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 21
+14:50:41.962 [nacos-grpc-client-executor-1353] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Ack server push request, request = ClientDetectionRequest, requestId = 20
+14:50:41.962 [nacos-grpc-client-executor-809] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 21
+14:51:09.290 [lettuce-eventExecutorLoop-3-20] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:51:09.290 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:51:49.392 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:51:49.392 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:52:29.493 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:52:29.493 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:53:09.601 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:53:09.601 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:53:49.694 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:53:49.694 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:54:29.791 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:54:29.791 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:55:09.891 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:55:09.892 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:55:49.997 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:55:49.997 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:56:30.091 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:56:30.091 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:57:10.193 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:57:10.193 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:57:50.291 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:57:50.291 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:58:30.395 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:58:30.395 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:59:10.496 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:59:10.496 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:59:50.590 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+14:59:50.590 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:00:30.691 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:00:30.691 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:17:10.065 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:17:10.065 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:17:10.390 [nacos-grpc-client-executor-1567] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Receive server push request, request = ClientDetectionRequest, requestId = 25
+15:17:10.392 [nacos-grpc-client-executor-935] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 27
+15:17:10.392 [nacos-grpc-client-executor-1567] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6a08d275-b564-462c-817f-94a68244cd46] Ack server push request, request = ClientDetectionRequest, requestId = 25
+15:17:10.392 [nacos-grpc-client-executor-935] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1f8d83cf-da88-49dd-af2e-1cc4d34a5553_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 27
+15:17:40.095 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:17:40.095 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:18:10.205 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:18:10.205 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:18:40.291 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:18:40.291 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:19:10.392 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:19:10.392 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:19:40.491 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:19:40.491 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:20:10.591 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:20:10.591 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:20:40.691 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:20:40.691 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:21:10.791 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:21:10.791 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:21:40.894 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:21:40.894 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:22:11.006 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:22:11.006 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:22:41.095 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:22:41.095 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:23:11.191 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:23:11.191 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:23:41.291 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:23:41.291 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:24:11.392 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:24:11.392 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:24:41.491 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:24:41.491 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:25:11.598 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:25:11.599 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:25:41.690 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:25:41.690 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:26:11.790 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:26:11.790 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:26:41.891 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:26:41.891 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:27:11.995 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:27:11.995 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:27:42.091 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:27:42.091 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:28:12.196 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:28:12.197 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:28:42.291 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:28:42.291 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:29:12.391 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:29:12.391 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:29:42.503 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:29:42.503 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:30:12.590 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:30:12.590 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:30:42.694 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:30:42.694 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:31:12.793 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:31:12.793 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:31:42.891 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:31:42.891 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:32:12.991 [lettuce-eventExecutorLoop-3-19] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:32:12.991 [lettuce-eventExecutorLoop-3-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:32:43.093 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:32:43.093 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+15:32:43.519 [lettuce-nioEventLoop-5-15] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+15:32:43.527 [lettuce-nioEventLoop-5-14] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+15:32:54.548 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:32:54.550 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:32:54.831 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:32:56.790 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/upInfo
+15:33:47.615 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+15:33:49.621 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:33:49.623 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:34:21.488 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+15:34:42.013 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+15:34:43.914 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+15:34:49.123 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:34:49.123 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:35:06.069 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:35:15.894 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+15:35:21.266 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+15:35:21.939 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+15:35:23.743 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:35:23.748 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:35:46.963 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+15:35:56.872 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:35:56.884 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:36:28.490 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+15:36:29.478 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+15:37:06.479 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:37:06.481 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:39:51.378 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:40:00.585 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+15:40:01.736 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+15:40:02.805 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:40:02.807 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:40:23.462 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+15:40:49.502 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:40:49.502 [reactor-http-nio-12] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:40:51.769 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:40:51.771 [reactor-http-nio-16] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:40:51.772 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:40:52.155 [reactor-http-nio-1] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:41:06.643 [reactor-http-nio-12] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:41:06.647 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+15:41:06.873 [reactor-http-nio-17] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:41:49.146 [reactor-http-nio-6] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:41:50.877 [reactor-http-nio-8] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:47:21.135 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/login
+15:47:21.730 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /notice/queryPage
+15:47:23.373 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:47:23.392 [reactor-http-nio-13] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:47:42.810 [reactor-http-nio-16] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:47:43.451 [reactor-http-nio-18] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:47:44.639 [reactor-http-nio-20] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:47:45.116 [reactor-http-nio-2] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:47:53.617 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/car/queryPage
+15:47:53.639 [reactor-http-nio-13] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /api/msg/queryPage1
+15:47:56.811 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,94] - De-registering from Nacos Server now...
+15:47:56.815 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,114] - De-registration finished.
+15:47:57.192 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,454] - Shutdown rpc client, set status to shutdown
+15:47:57.192 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,456] - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@343deab7[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:47:57.192 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [closeConnection,591] - Close current connection 1747192646488_127.0.0.1_57254
+15:47:57.194 [nacos-grpc-client-executor-2189] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1747192646488_127.0.0.1_57254]Ignore complete event,isRunning:false,isAbandon=false
+15:47:57.232 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@10ba83e[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 2190]

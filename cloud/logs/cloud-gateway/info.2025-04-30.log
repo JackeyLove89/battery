@@ -1,0 +1,480 @@
+08:29:16.965 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+08:29:21.087 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0
+08:29:21.190 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 58 ms to scan 1 urls, producing 3 keys and 6 values 
+08:29:21.239 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 18 ms to scan 1 urls, producing 4 keys and 9 values 
+08:29:21.262 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 18 ms to scan 1 urls, producing 3 keys and 10 values 
+08:29:21.284 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 14 ms to scan 1 urls, producing 1 keys and 5 values 
+08:29:21.303 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 16 ms to scan 1 urls, producing 1 keys and 7 values 
+08:29:21.339 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 31 ms to scan 1 urls, producing 2 keys and 8 values 
+08:29:21.346 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] RpcClient init label, labels = {module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+08:29:21.347 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$451/0x000000080040ec40
+08:29:21.348 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$452/0x000000080040e040
+08:29:21.349 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+08:29:21.351 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+08:29:21.367 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+08:29:27.808 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+08:29:29.026 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1745972968707_127.0.0.1_51252
+08:29:29.028 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+08:29:29.027 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Notify connected event to listeners.
+08:29:29.029 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x0000000800485440
+08:29:29.399 [main] INFO  c.c.g.CloudGatewayApplication - [logStartupProfileInfo,646] - The following 1 profile is active: "dev"
+08:29:46.515 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+08:29:46.846 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of dda460a6-4b63-488e-ad54-40356c7fdd77
+08:29:46.847 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] RpcClient init label, labels = {module=naming, source=sdk}
+08:29:46.850 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+08:29:46.851 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+08:29:46.852 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+08:29:46.853 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+08:29:46.992 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Success to connect to server [localhost:8848] on start up, connectionId = 1745972986871_127.0.0.1_51421
+08:29:46.993 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Notify connected event to listeners.
+08:29:46.993 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+08:29:46.993 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x0000000800485440
+08:29:47.309 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+08:29:49.309 [nacos-grpc-client-executor-14] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Receive server push request, request = NotifySubscriberRequest, requestId = 1
+08:29:49.314 [nacos-grpc-client-executor-14] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Ack server push request, request = NotifySubscriberRequest, requestId = 1
+08:29:56.710 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP cloud-gateway 192.168.127.1:9320 register finished
+08:29:56.787 [main] INFO  c.c.g.CloudGatewayApplication - [logStarted,61] - Started CloudGatewayApplication in 43.812 seconds (JVM running for 47.079)
+08:29:56.804 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-gateway, group=DEFAULT_GROUP
+08:29:56.806 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-gateway.yml, group=DEFAULT_GROUP
+08:29:57.275 [nacos-grpc-client-executor-36] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Receive server push request, request = NotifySubscriberRequest, requestId = 5
+08:29:57.276 [nacos-grpc-client-executor-36] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Ack server push request, request = NotifySubscriberRequest, requestId = 5
+08:29:57.288 [nacos-grpc-client-executor-37] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Receive server push request, request = NotifySubscriberRequest, requestId = 4
+08:29:57.293 [nacos-grpc-client-executor-37] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+08:29:57.307 [nacos-grpc-client-executor-38] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Receive server push request, request = NotifySubscriberRequest, requestId = 6
+08:29:57.307 [nacos-grpc-client-executor-38] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Ack server push request, request = NotifySubscriberRequest, requestId = 6
+08:30:18.629 [nacos-grpc-client-executor-59] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Receive server push request, request = NotifySubscriberRequest, requestId = 8
+08:30:18.630 [nacos-grpc-client-executor-59] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Ack server push request, request = NotifySubscriberRequest, requestId = 8
+08:44:10.886 [reactor-http-nio-2] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:44:17.292 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+08:44:18.792 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+08:44:18.799 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+08:44:20.892 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+08:44:23.144 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:44:23.944 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+08:44:26.271 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:44:28.922 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution/can
+08:44:29.899 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+08:44:33.238 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/vehicle
+08:44:34.282 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/driver
+08:44:35.609 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution/can
+08:44:36.686 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+08:44:37.546 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/driver
+08:44:38.443 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/vehicle
+08:44:41.907 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+08:44:42.872 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+08:44:44.653 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+08:44:49.408 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/role
+08:44:49.412 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/admin
+08:44:53.448 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/role
+08:44:53.920 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/role
+08:44:53.928 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/admin
+08:45:17.697 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/role
+08:45:17.697 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/admin
+08:45:21.244 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/role
+08:45:24.356 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/admin
+08:45:24.361 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/role
+08:47:03.338 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:47:03.785 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+08:47:04.187 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+08:47:04.200 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+08:47:04.617 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+08:47:05.252 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+08:47:05.257 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+08:47:19.358 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:47:20.161 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+08:47:21.024 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+08:47:47.988 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:47:49.310 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:47:52.249 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+08:47:53.555 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+08:47:53.939 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+08:47:53.949 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+08:47:54.719 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+08:47:56.644 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution/can
+08:47:56.999 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+08:47:57.988 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:47:58.369 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+08:48:00.845 [reactor-http-nio-5] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/admin
+08:48:00.845 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/role
+08:53:32.657 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:56:17.173 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:57:10.999 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:57:16.295 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+08:57:19.838 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+08:57:19.841 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+08:57:33.715 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+08:57:33.718 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+08:58:10.738 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/vehicle
+08:58:12.107 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/driver
+08:58:13.061 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/vehicle
+09:03:34.434 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/driver
+09:03:36.063 [reactor-http-nio-7] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/vehicle
+09:06:56.684 [lettuce-nioEventLoop-5-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:06:56.684 [lettuce-nioEventLoop-5-2] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:06:56.805 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+09:06:56.805 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+09:07:05.892 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:07:05.892 [lettuce-eventExecutorLoop-3-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:07:14.100 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:07:14.100 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:07:30.597 [lettuce-eventExecutorLoop-3-15] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:07:30.597 [lettuce-eventExecutorLoop-3-16] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:08:00.696 [lettuce-eventExecutorLoop-3-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:08:00.696 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:08:30.794 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:08:30.794 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:09:00.896 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:09:00.896 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:09:30.992 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:09:30.992 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:10:01.095 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:10:01.095 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:10:31.197 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:10:31.197 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:11:01.293 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:11:01.293 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:11:31.393 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:11:31.393 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:12:01.493 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:12:01.493 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:12:31.597 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:12:31.597 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:13:01.694 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:13:01.694 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:13:31.793 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:13:31.793 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:14:01.901 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:14:01.901 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:14:32.002 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:14:32.002 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:15:02.101 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:15:02.101 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:15:32.193 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:15:32.193 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:16:02.293 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:16:02.293 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:16:32.397 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:16:32.397 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:17:02.493 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:17:02.493 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:17:32.592 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:17:32.592 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:18:02.708 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:18:02.708 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:18:32.796 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:18:32.796 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:19:02.895 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:19:02.895 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:19:33.000 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:19:33.000 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:20:03.092 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:20:03.092 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:20:33.199 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:20:33.199 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:21:03.294 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:21:03.294 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:21:33.401 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:21:33.401 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:22:03.499 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:22:03.499 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:22:33.595 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:22:33.595 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:23:03.693 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:23:03.693 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:23:33.792 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:23:33.792 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:24:03.893 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:24:03.893 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:24:33.993 [lettuce-eventExecutorLoop-3-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:24:33.993 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:25:04.094 [lettuce-eventExecutorLoop-3-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:25:04.094 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:25:34.193 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:25:34.193 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:26:04.297 [lettuce-eventExecutorLoop-3-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:26:04.297 [lettuce-eventExecutorLoop-3-13] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+09:26:04.361 [lettuce-nioEventLoop-5-10] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+09:26:04.381 [lettuce-nioEventLoop-5-9] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+09:37:44.714 [reactor-http-nio-10] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:37:44.715 [reactor-http-nio-11] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:46:10.406 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:46:10.408 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:46:12.726 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:46:13.106 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:47:03.398 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:47:03.399 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:47:04.878 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:47:05.266 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:47:05.666 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:47:05.672 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:47:09.573 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:47:10.106 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:47:12.079 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:47:12.080 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+09:47:13.165 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:47:15.225 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:47:15.227 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:47:18.165 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:47:18.539 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:47:18.938 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:47:19.892 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:47:20.276 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:47:20.637 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+09:47:20.645 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:47:21.037 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:47:21.604 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:47:22.425 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:47:23.401 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution/can
+09:47:24.367 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+09:47:25.051 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:47:25.059 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:47:29.693 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/vehicle
+09:47:29.810 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/driver
+09:47:31.141 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:47:44.246 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:47:48.679 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:47:56.030 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:47:57.650 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:47:58.837 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:47:58.839 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:48:00.557 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:48:01.604 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+09:48:01.617 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:48:02.130 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:48:02.921 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:48:03.400 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution/can
+09:48:11.243 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+09:48:18.651 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+09:48:22.701 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:48:22.701 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:48:24.599 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution/can
+09:48:26.345 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/vehicle
+09:48:32.099 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/driver
+09:48:34.941 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution/can
+09:48:35.745 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+09:48:43.503 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+09:48:44.431 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+09:48:48.151 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+09:48:52.441 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /logistics/distribution
+09:49:00.710 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:49:01.415 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:49:03.502 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:49:03.970 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:49:05.737 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:49:09.962 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:49:09.962 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:49:10.414 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:49:11.080 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:49:11.584 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:49:11.584 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+09:49:12.912 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:49:14.286 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:49:14.969 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:49:14.969 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:49:26.116 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:49:31.392 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:49:32.198 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:49:32.198 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+09:49:32.595 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:49:35.050 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:49:35.050 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w1
+09:49:42.793 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/out
+09:49:43.901 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w1
+09:49:51.871 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:49:54.995 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:49:54.999 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w1
+09:49:56.494 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:49:58.357 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:49:58.357 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w2
+09:50:02.126 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:50:03.432 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:50:03.432 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w3
+09:50:08.889 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/out
+09:50:09.963 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w3
+09:50:11.647 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:50:11.647 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+09:50:13.657 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:50:16.574 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w3
+09:50:16.580 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:50:18.819 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:50:18.833 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:50:25.035 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:50:26.472 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w3
+09:50:26.472 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:50:29.325 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:50:29.325 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /user/employee
+09:50:29.766 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:50:31.092 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w3
+09:50:31.092 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:50:40.395 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/out
+09:50:40.545 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/warehouse/w3
+09:50:42.150 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:50:42.557 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:50:43.358 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:50:43.369 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:50:47.610 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/warehouse
+09:50:48.225 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:50:48.765 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:50:49.659 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+09:50:51.795 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+09:50:53.017 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:50:53.017 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:50:56.579 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:50:57.388 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:50:58.506 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:51:00.891 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+09:51:00.896 [reactor-http-nio-14] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/inventory/analyze
+10:04:07.627 [lettuce-nioEventLoop-5-9] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10:04:07.628 [lettuce-nioEventLoop-5-10] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10:04:07.791 [lettuce-eventExecutorLoop-3-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+10:04:07.792 [lettuce-eventExecutorLoop-3-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+10:04:08.274 [lettuce-nioEventLoop-5-11] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+10:04:08.276 [lettuce-nioEventLoop-5-12] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+10:21:33.123 [lettuce-nioEventLoop-5-11] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10:21:33.123 [lettuce-nioEventLoop-5-12] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10:21:33.253 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+10:21:33.253 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /43.138.185.132:6379
+10:21:33.697 [nacos-grpc-client-executor-1200] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 14
+10:21:33.697 [nacos-grpc-client-executor-1649] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Receive server push request, request = ClientDetectionRequest, requestId = 16
+10:21:33.698 [nacos-grpc-client-executor-1649] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Ack server push request, request = ClientDetectionRequest, requestId = 16
+10:21:33.698 [nacos-grpc-client-executor-1200] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 14
+10:21:33.788 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+10:21:34.027 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Success to connect a server [localhost:8848], connectionId = 1745979693885_127.0.0.1_52220
+10:21:34.028 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Abandon prev connection, server is localhost:8848, connectionId is 1745972968707_127.0.0.1_51252
+10:21:34.028 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [closeConnection,591] - Close current connection 1745972968707_127.0.0.1_51252
+10:21:34.031 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Notify disconnected event to listeners
+10:21:34.034 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6cb8f57c-f1f0-4eac-9d31-3747cb23253c_config-0] Notify connected event to listeners.
+12:12:32.600 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+12:12:32.601 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+12:12:34.306 [nacos-grpc-client-executor-1650] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Receive server push request, request = ClientDetectionRequest, requestId = 20
+12:12:34.306 [nacos-grpc-client-executor-1650] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [dda460a6-4b63-488e-ad54-40356c7fdd77] Ack server push request, request = ClientDetectionRequest, requestId = 20
+12:12:45.092 [lettuce-eventExecutorLoop-3-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+12:12:45.092 [lettuce-eventExecutorLoop-3-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+12:13:01.494 [lettuce-eventExecutorLoop-3-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+12:13:01.494 [lettuce-eventExecutorLoop-3-9] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+12:13:31.598 [lettuce-eventExecutorLoop-3-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+12:13:31.598 [lettuce-eventExecutorLoop-3-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 43.138.185.132:6379
+12:13:31.723 [lettuce-nioEventLoop-5-11] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+12:13:31.730 [lettuce-nioEventLoop-5-12] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 43.138.185.132:6379
+12:13:31.792 [reactor-http-nio-15] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/commodity
+12:13:31.803 [reactor-http-nio-16] INFO  c.c.g.f.LoggingFilter - [filter,25] - Request Path: /commodity/sale
+12:13:56.552 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,94] - De-registering from Nacos Server now...
+12:13:56.559 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,114] - De-registration finished.
+12:13:56.893 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,454] - Shutdown rpc client, set status to shutdown
+12:13:56.894 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,456] - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@3c901d90[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+12:13:56.894 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [closeConnection,591] - Close current connection 1745972986871_127.0.0.1_51421
+12:13:56.894 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@62515256[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 1681]

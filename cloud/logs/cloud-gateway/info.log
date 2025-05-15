@@ -1,0 +1,52 @@
+14:12:18.213 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+14:12:19.401 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0
+14:12:19.453 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 29 ms to scan 1 urls, producing 3 keys and 6 values 
+14:12:19.488 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 14 ms to scan 1 urls, producing 4 keys and 9 values 
+14:12:19.509 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 15 ms to scan 1 urls, producing 3 keys and 10 values 
+14:12:19.525 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
+14:12:19.567 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 13 ms to scan 1 urls, producing 1 keys and 7 values 
+14:12:19.581 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 11 ms to scan 1 urls, producing 2 keys and 8 values 
+14:12:19.588 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] RpcClient init label, labels = {module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+14:12:19.589 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$452/0x00000008003eec40
+14:12:19.589 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$453/0x00000008003ee040
+14:12:19.591 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+14:12:19.593 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+14:12:19.600 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+14:12:21.978 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1747289541735_127.0.0.1_58107
+14:12:21.981 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:12:21.979 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] Notify connected event to listeners.
+14:12:21.982 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [83facd7d-710c-4add-99e0-c8ee5fc8809d_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$467/0x000000080045ec40
+14:12:22.310 [main] INFO  c.c.g.CloudGatewayApplication - [logStartupProfileInfo,646] - The following 1 profile is active: "dev"
+14:12:28.473 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+14:12:28.864 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 17df7a2c-ad6a-48dc-b5cf-c099841e9ebe
+14:12:28.864 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] RpcClient init label, labels = {module=naming, source=sdk}
+14:12:28.867 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:12:28.868 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:12:28.869 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:12:28.870 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+14:12:29.004 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Success to connect to server [localhost:8848] on start up, connectionId = 1747289548881_127.0.0.1_58236
+14:12:29.004 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Notify connected event to listeners.
+14:12:29.004 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:12:29.004 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$467/0x000000080045ec40
+14:12:29.340 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+14:12:30.358 [nacos-grpc-client-executor-16] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Receive server push request, request = NotifySubscriberRequest, requestId = 4
+14:12:30.361 [nacos-grpc-client-executor-16] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+14:12:30.458 [nacos-grpc-client-executor-17] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Receive server push request, request = NotifySubscriberRequest, requestId = 5
+14:12:30.458 [nacos-grpc-client-executor-17] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Ack server push request, request = NotifySubscriberRequest, requestId = 5
+14:12:30.478 [nacos-grpc-client-executor-18] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Receive server push request, request = NotifySubscriberRequest, requestId = 6
+14:12:30.480 [nacos-grpc-client-executor-18] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Ack server push request, request = NotifySubscriberRequest, requestId = 6
+14:12:30.501 [nacos-grpc-client-executor-19] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Receive server push request, request = NotifySubscriberRequest, requestId = 7
+14:12:30.504 [nacos-grpc-client-executor-19] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Ack server push request, request = NotifySubscriberRequest, requestId = 7
+14:12:31.494 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP cloud-gateway 172.16.90.73:9320 register finished
+14:12:31.527 [main] INFO  c.c.g.CloudGatewayApplication - [logStarted,61] - Started CloudGatewayApplication in 14.678 seconds (JVM running for 16.311)
+14:12:31.542 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-gateway, group=DEFAULT_GROUP
+14:12:31.543 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListenersForApplications,105] - listening config: dataId=cloud-gateway.yml, group=DEFAULT_GROUP
+14:12:32.096 [nacos-grpc-client-executor-33] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Receive server push request, request = NotifySubscriberRequest, requestId = 8
+14:12:32.102 [nacos-grpc-client-executor-33] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [17df7a2c-ad6a-48dc-b5cf-c099841e9ebe] Ack server push request, request = NotifySubscriberRequest, requestId = 8
+14:28:09.490 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,94] - De-registering from Nacos Server now...
+14:28:09.496 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,114] - De-registration finished.
+14:28:09.829 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,454] - Shutdown rpc client, set status to shutdown
+14:28:09.830 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,456] - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@1ca56815[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:28:09.830 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [closeConnection,591] - Close current connection 1747289548881_127.0.0.1_58236
+14:28:09.833 [nacos-grpc-client-executor-340] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1747289548881_127.0.0.1_58236]Ignore complete event,isRunning:false,isAbandon=false
+14:28:09.885 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1be19900[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 341]
